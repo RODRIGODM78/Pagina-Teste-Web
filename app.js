@@ -4,7 +4,7 @@ function pesquisar() {
 let campoPesquisa = document.getElementById
 ("campo-pesquisa").value 
 
-if (!campoPesquisa == "") {
+if (campoPesquisa == "") {
 section.innerHTML = "<p>Nada foi encontrado</p>"
 
 return
@@ -34,8 +34,8 @@ let tags = "";
 
         }
 
-     if (!resutltados) {
-resultados = "<p>Nada foi encontrado</p>"
+     if (!resultados) {
+resultados = "<p>Nada foi encontrado, você não pesquisou por carro ou moto.</p>"
      }
 
 
